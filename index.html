@@ -1,72 +1,102 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Barbershop</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Lesson 9</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="wrapper">
-	<header class="header">
-		<div class="container">
-			<nav class="navigation flex">
-				<ul>
-					<li class="active"><a href="#">Главная</a></li>
-					<li><a href="#">Информаци</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
-				<div class="login dropdown-js"><a href="#">Вход</a>
-					
-				</div>
-			</nav>
-		</div>
-	</header>
-		<main class="main" style="background-image: url('img/fonts.jpg')">
-			<div class="container">
-				<div class="logo-header flex">
-					<a href="#"><img class="logo" alt="" src="img/logo.png"></a>
-				</div>
-				<div class="info-header flex">
-					<div class="info info1">
-						<h1>Быстро</h1>
-						<div class="rhomb-info flex"><div class="rhomb"></div></div>
-						<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы счастливый обладатель стильной стрижки-минутки!</p>
-					</div>
-					<div class="info info2">
-						<h1>Круто</h1>
-						<div class="rhomb-info flex"><div class="rhomb"></div></div>
-						<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
-					</div>
-					<div class="info info3">
-						<h1>Дорого</h1>
-						<div class="rhomb-info flex"><div class="rhomb"></div></div>
-						<p>Наши мастера - прфессионалы своего дела и не могут стоить дешево. Ктому же, разве цена не дает определеный статус?</p>
-					</div>
-				</div>
-		</div>
-		<div class="submenu-js">
-			<span class="close"></span>
-			<form action="#" method="post">
-				<h1>Личный кабинет</h1>
-				<p>Введите пожалуйста свой логин и пароль</p>
-				<p><a href="#">Если вы забыли пароль</a></p>
-				<input id="login" type="text" value="" placeholder="Логин" name="login">
-				<input id="password" type="password" value="" placeholder="Пароль" name="password">
-				<input type="checkbox" name="save" id="save"> 
-				<label for="save">Запомните меня</label>
-				<a href="#">Я забыл пароль</a>
-				<input class="btn" type="submit" value="Войти" name="submit">
-			</form>
-		</div>
-	</main>
+    <header class="header">
+        <div class="header-top">
+            <ul class="container">
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Cart</a>
+                </li>
+                <li class="phone-number">
+                    <a href="tel:+380991234567">8(099)1234567</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.gif" alt="Site name">
+                    </a>
+                </div>
+                <form action="" class="search-form">
+                    <input type="search" name="search" placeholder="Search...">
+                    <input type="submit" name="submit" value="Search">
+                </form>
+            </div>
+        </div>
+        <nav class="navigation">
+            <div class="container">
+                <input type="checkbox" name="menu" class="mobile-menu" id="mobile-menu">
+                <label for="mobile-menu" class="mobile-menu"><img src="images/menu.svg" alt="menu icon"></label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container content">
+        <aside>
+            <nav class="sidebar-navigation">
+                <h4 class="title16 text-center">Categories</h4>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                    <li><a href="#">Category 4</a></li>
+                    <li><a href="#">Category 5</a></li>
+                    <li><a href="#">Category 6</a></li>
+                </ul>
+            </nav>
+            <div class="bestsellers">
+                <h4 class="title16 text-center">Bestsellers</h4>
+                <ul>
+                    <li><a href="#"><img src="images/item1.jpg" alt="Item name"></a></li>
+                    <li><a href="#"><img src="images/item2.jpg" alt="Item name"></a></li>
+                    <li><a href="#"><img src="images/item3.jpg" alt="Item name"></a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <div class="product">
+                <div class="product__image">
+                    <img src="images/item.png" alt="Item name">
+                </div>
+                <div class="product__info">
+                    <h1 class="product__name">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                    <div class="product__price text-center">1999 $</div>
+                    <form action="/" class="product__variant">
+                        <div class="product__colour">
+                            <h6>Choose color:</h6>
+                            <ul>
+                                <li><input type="radio" name="colour" value="red" id="red"><label style="background-color: #f00" for="red"></label></li>
+                                <li><input type="radio" name="colour" value="blue" id="blue"><label style="background-color: #00f" for="blue"></label></li>
+                                <li><input type="radio" name="colour" value="green" id="green"><label style="background-color: #0f0" for="green"></label></li>
+                                <li><input type="radio" name="colour" value="gray" id="gray"><label style="background-color: #ccc" for="gray"></label></li>
+                            </ul>
+                        </div>
+                        <input type="submit" class="button" value="Add to cart" name="add_to_cart">
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
 </body>
 </html>
