@@ -3,35 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2211505c-2b87-4c31-96aa-137447698b9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/12 занятие.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/lightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/PTSans-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fonts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/locked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.3.3.1min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +15,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588270310612</updated>
-      <workItem from="1588270312328" duration="129000" />
+      <workItem from="1588270312328" duration="868000" />
     </task>
     <servers />
   </component>
